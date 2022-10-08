@@ -1,0 +1,16 @@
+PODS:
+  - JXLinearPageControl (0.0.1)
+
+DEPENDENCIES:
+  - JXLinearPageControl (from `../`)
+
+EXTERNAL SOURCES:
+  JXLinearPageControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JXLinearPageControl: 1be0b285271ed8948b02b5e2536177202280e192
+
+PODFILE CHECKSUM: c684d2e3c01dda0b050ca9b5f83ad9641d5ffd74
+
+COCOAPODS: 1.11.3

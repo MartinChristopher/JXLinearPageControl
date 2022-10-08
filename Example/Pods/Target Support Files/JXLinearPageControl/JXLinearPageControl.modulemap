@@ -1,0 +1,6 @@
+framework module JXLinearPageControl {
+  umbrella header "JXLinearPageControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

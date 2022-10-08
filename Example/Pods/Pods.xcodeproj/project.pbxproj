@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14DCC2C0CBEB0761AAE452F5F4580604 /* Pods-JXLinearPageControl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E489343367A05A7CA0D6E1D82D6DD961 /* Pods-JXLinearPageControl_Example-dummy.m */; };
+		34AC4FFAA282B2486129CB5A4015CC2E /* JXLinearPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 162EE7669E24B9DBDA3EA80FE921EA8B /* JXLinearPageControl-dummy.m */; };
+		5396B054903218A29AA8D9AFEE41833D /* JXLinearPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A919DC1456093D07D576535F0A8C30CC /* JXLinearPageControl.m */; };
+		5DFCAE9500942DF1273F2F13F201674A /* Pods-JXLinearPageControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 795BBAD2324551000BE0788B19F528AD /* Pods-JXLinearPageControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73AFDD67F47C800C893D251A9530FFD1 /* Pods-JXLinearPageControl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C52A2348D06042D72B4B0A86DEB7B79 /* Pods-JXLinearPageControl_Tests-dummy.m */; };
+		8F8DB2F58EA81ABBB57EFA3D0A8A8C8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9D1A496DEAFF21CCC35BF2AA44DA74A2 /* JXLinearPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD17B6371489E64FFBA72F3D0A668F9 /* JXLinearPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB1556CE5BC40BAE67C1C46F916D6D26 /* Pods-JXLinearPageControl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEC0A8D71AF50107F048D35E1BD22D8 /* Pods-JXLinearPageControl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1855A4B3946764A665EB89D87C7411D /* JXLinearPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 1461331BDA9FED7BF9AFB480EC3C4996 /* JXLinearPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4B7DB70089A1D1B8A95E4AF9E7AA792 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FCC524D0B931DC4681775E80C0D7F63D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31998F1B77110175C6CF788F6BDF3E97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E677DDA88CFDFFD3F0376C69535AD84;
+			remoteInfo = JXLinearPageControl;
+		};
+		87A4C1E8B84545478868E10A711DC714 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4986376F0CDF1A8B5168A8071CF3351;
+			remoteInfo = "Pods-JXLinearPageControl_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089069462DD38016667D151DBDBBEFA6 /* Pods-JXLinearPageControl_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JXLinearPageControl_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0C26640879F91D6F3C3126A9373BADAB /* Pods-JXLinearPageControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JXLinearPageControl_Example.modulemap"; sourceTree = "<group>"; };
+		1461331BDA9FED7BF9AFB480EC3C4996 /* JXLinearPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXLinearPageControl.h; path = JXLinearPageControl/JXLinearPageControl.h; sourceTree = "<group>"; };
+		162EE7669E24B9DBDA3EA80FE921EA8B /* JXLinearPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXLinearPageControl-dummy.m"; sourceTree = "<group>"; };
+		17B8106D6E07EAA60DD295ABCBC62B53 /* Pods-JXLinearPageControl_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXLinearPageControl_Tests-Info.plist"; sourceTree = "<group>"; };
+		2350826094A0BBBE0C14C2828FC74967 /* Pods-JXLinearPageControl_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JXLinearPageControl_Example"; path = Pods_JXLinearPageControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		252BCA56CCB3C1EAAF491A2375D5753E /* Pods-JXLinearPageControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JXLinearPageControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		26BE332FDA5FE19CDB1F386295C5F378 /* Pods-JXLinearPageControl_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JXLinearPageControl_Tests"; path = Pods_JXLinearPageControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		354AD517D22348B6F14855E51FB9C97D /* Pods-JXLinearPageControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXLinearPageControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3DBF59DFF5FC76AA2D192EC40A6E3527 /* Pods-JXLinearPageControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXLinearPageControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		433EF5A9C045D83B1725E18ADE584D0F /* Pods-JXLinearPageControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXLinearPageControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5431E846E6D8DA41225834F7B5D4060D /* Pods-JXLinearPageControl_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JXLinearPageControl_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C52A2348D06042D72B4B0A86DEB7B79 /* Pods-JXLinearPageControl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JXLinearPageControl_Tests-dummy.m"; sourceTree = "<group>"; };
+		60B26CFC93AF3DCF9019CAFDF71D7B4D /* Pods-JXLinearPageControl_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXLinearPageControl_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75BDDF99B3A978A2486EE803D66E089F /* Pods-JXLinearPageControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXLinearPageControl_Example.release.xcconfig"; sourceTree = "<group>"; };
+		795BBAD2324551000BE0788B19F528AD /* Pods-JXLinearPageControl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JXLinearPageControl_Example-umbrella.h"; sourceTree = "<group>"; };
+		7EC2D2F03DA20F4AA7BAA6C2DF78DC76 /* Pods-JXLinearPageControl_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXLinearPageControl_Example-Info.plist"; sourceTree = "<group>"; };
+		821A459A26008B7D85203F974DF73746 /* JXLinearPageControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JXLinearPageControl-Info.plist"; sourceTree = "<group>"; };
+		85D4CA736C38D7B710E28DA71EDF304B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		915C8DA98E02BFD56C36AE8B910EB914 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		92F440DECFBD4813AA8EAFCD0D43229F /* JXLinearPageControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXLinearPageControl.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F2EA7483DE192148A39B5D7733AD89C /* JXLinearPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXLinearPageControl-prefix.pch"; sourceTree = "<group>"; };
+		A919DC1456093D07D576535F0A8C30CC /* JXLinearPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXLinearPageControl.m; path = JXLinearPageControl/JXLinearPageControl.m; sourceTree = "<group>"; };
+		B19823128FDDCD8CBB1D9B5C77569248 /* Pods-JXLinearPageControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JXLinearPageControl_Tests.modulemap"; sourceTree = "<group>"; };
+		C0449AF66FD54113494E4FE032316A3D /* JXLinearPageControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JXLinearPageControl.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C47AC2ACF59FF0A16079C9B217AFEBD2 /* Pods-JXLinearPageControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXLinearPageControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CAE4480B0FC862906A84BAACB9443574 /* JXLinearPageControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JXLinearPageControl.modulemap; sourceTree = "<group>"; };
+		E489343367A05A7CA0D6E1D82D6DD961 /* Pods-JXLinearPageControl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JXLinearPageControl_Example-dummy.m"; sourceTree = "<group>"; };
+		EAD17B6371489E64FFBA72F3D0A668F9 /* JXLinearPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXLinearPageControl-umbrella.h"; sourceTree = "<group>"; };
+		EF04E7F97A223961B2C8BB4C9F159C4D /* JXLinearPageControl */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JXLinearPageControl; path = JXLinearPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3457714BE3BE2814D021E5E0863CC1 /* JXLinearPageControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXLinearPageControl.debug.xcconfig; sourceTree = "<group>"; };
+		FEEC0A8D71AF50107F048D35E1BD22D8 /* Pods-JXLinearPageControl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JXLinearPageControl_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64DDA10373E63510267E4352BA91A8A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8DB2F58EA81ABBB57EFA3D0A8A8C8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D3987B24D9FF2217A75B5E230BF522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC524D0B931DC4681775E80C0D7F63D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A117DB294C4671EFA7CC052EE34DBE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B7DB70089A1D1B8A95E4AF9E7AA792 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		395FB42569BE1E99D49CF509ADD8154D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2FDDFA0A6FBCCF57FBAC2E2A37DA7DA /* JXLinearPageControl */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4D0682666A2E1EA71CF8A1C72D19D936 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF04E7F97A223961B2C8BB4C9F159C4D /* JXLinearPageControl */,
+				2350826094A0BBBE0C14C2828FC74967 /* Pods-JXLinearPageControl_Example */,
+				26BE332FDA5FE19CDB1F386295C5F378 /* Pods-JXLinearPageControl_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6C7DF5898269F022374B8C791E4BA2EF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A89ECBF92D84F0466F3FFF1D6BDED3B0 /* Pods-JXLinearPageControl_Example */,
+				D178623AAC744DFAC5CEA45191CCBB21 /* Pods-JXLinearPageControl_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A89ECBF92D84F0466F3FFF1D6BDED3B0 /* Pods-JXLinearPageControl_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0C26640879F91D6F3C3126A9373BADAB /* Pods-JXLinearPageControl_Example.modulemap */,
+				5431E846E6D8DA41225834F7B5D4060D /* Pods-JXLinearPageControl_Example-acknowledgements.markdown */,
+				60B26CFC93AF3DCF9019CAFDF71D7B4D /* Pods-JXLinearPageControl_Example-acknowledgements.plist */,
+				E489343367A05A7CA0D6E1D82D6DD961 /* Pods-JXLinearPageControl_Example-dummy.m */,
+				089069462DD38016667D151DBDBBEFA6 /* Pods-JXLinearPageControl_Example-frameworks.sh */,
+				7EC2D2F03DA20F4AA7BAA6C2DF78DC76 /* Pods-JXLinearPageControl_Example-Info.plist */,
+				795BBAD2324551000BE0788B19F528AD /* Pods-JXLinearPageControl_Example-umbrella.h */,
+				3DBF59DFF5FC76AA2D192EC40A6E3527 /* Pods-JXLinearPageControl_Example.debug.xcconfig */,
+				75BDDF99B3A978A2486EE803D66E089F /* Pods-JXLinearPageControl_Example.release.xcconfig */,
+			);
+			name = "Pods-JXLinearPageControl_Example";
+			path = "Target Support Files/Pods-JXLinearPageControl_Example";
+			sourceTree = "<group>";
+		};
+		B10EBB87426AD14561F7006E90FC2BF5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAE4480B0FC862906A84BAACB9443574 /* JXLinearPageControl.modulemap */,
+				162EE7669E24B9DBDA3EA80FE921EA8B /* JXLinearPageControl-dummy.m */,
+				821A459A26008B7D85203F974DF73746 /* JXLinearPageControl-Info.plist */,
+				9F2EA7483DE192148A39B5D7733AD89C /* JXLinearPageControl-prefix.pch */,
+				EAD17B6371489E64FFBA72F3D0A668F9 /* JXLinearPageControl-umbrella.h */,
+				EF3457714BE3BE2814D021E5E0863CC1 /* JXLinearPageControl.debug.xcconfig */,
+				92F440DECFBD4813AA8EAFCD0D43229F /* JXLinearPageControl.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JXLinearPageControl";
+			sourceTree = "<group>";
+		};
+		C721A4654078BC1C1CF5ECFF2B0129E6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C0449AF66FD54113494E4FE032316A3D /* JXLinearPageControl.podspec */,
+				915C8DA98E02BFD56C36AE8B910EB914 /* LICENSE */,
+				85D4CA736C38D7B710E28DA71EDF304B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				395FB42569BE1E99D49CF509ADD8154D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4D0682666A2E1EA71CF8A1C72D19D936 /* Products */,
+				6C7DF5898269F022374B8C791E4BA2EF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D178623AAC744DFAC5CEA45191CCBB21 /* Pods-JXLinearPageControl_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B19823128FDDCD8CBB1D9B5C77569248 /* Pods-JXLinearPageControl_Tests.modulemap */,
+				252BCA56CCB3C1EAAF491A2375D5753E /* Pods-JXLinearPageControl_Tests-acknowledgements.markdown */,
+				354AD517D22348B6F14855E51FB9C97D /* Pods-JXLinearPageControl_Tests-acknowledgements.plist */,
+				5C52A2348D06042D72B4B0A86DEB7B79 /* Pods-JXLinearPageControl_Tests-dummy.m */,
+				17B8106D6E07EAA60DD295ABCBC62B53 /* Pods-JXLinearPageControl_Tests-Info.plist */,
+				FEEC0A8D71AF50107F048D35E1BD22D8 /* Pods-JXLinearPageControl_Tests-umbrella.h */,
+				C47AC2ACF59FF0A16079C9B217AFEBD2 /* Pods-JXLinearPageControl_Tests.debug.xcconfig */,
+				433EF5A9C045D83B1725E18ADE584D0F /* Pods-JXLinearPageControl_Tests.release.xcconfig */,
+			);
+			name = "Pods-JXLinearPageControl_Tests";
+			path = "Target Support Files/Pods-JXLinearPageControl_Tests";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2FDDFA0A6FBCCF57FBAC2E2A37DA7DA /* JXLinearPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				1461331BDA9FED7BF9AFB480EC3C4996 /* JXLinearPageControl.h */,
+				A919DC1456093D07D576535F0A8C30CC /* JXLinearPageControl.m */,
+				C721A4654078BC1C1CF5ECFF2B0129E6 /* Pod */,
+				B10EBB87426AD14561F7006E90FC2BF5 /* Support Files */,
+			);
+			name = JXLinearPageControl;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2578B6443FF8A7D3399E0888EF68D05E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1855A4B3946764A665EB89D87C7411D /* JXLinearPageControl.h in Headers */,
+				9D1A496DEAFF21CCC35BF2AA44DA74A2 /* JXLinearPageControl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6C4E250588318814A3AA3D57284A00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1556CE5BC40BAE67C1C46F916D6D26 /* Pods-JXLinearPageControl_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A08E934A58D4C7E3927C7F48311611 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DFCAE9500942DF1273F2F13F201674A /* Pods-JXLinearPageControl_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3226840E821F434BEAC5BB49450C5B18 /* Pods-JXLinearPageControl_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12AB714B1A809570B6E80879E9CEC94E /* Build configuration list for PBXNativeTarget "Pods-JXLinearPageControl_Tests" */;
+			buildPhases = (
+				3C6C4E250588318814A3AA3D57284A00 /* Headers */,
+				EC6BF00EB761F6A3F0D20539E1BDC4E5 /* Sources */,
+				64DDA10373E63510267E4352BA91A8A4 /* Frameworks */,
+				E4D0537D0FFD21D367EE1C741994F9C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DF9B4B7693AD5E50ECFD917348240DB /* PBXTargetDependency */,
+			);
+			name = "Pods-JXLinearPageControl_Tests";
+			productName = Pods_JXLinearPageControl_Tests;
+			productReference = 26BE332FDA5FE19CDB1F386295C5F378 /* Pods-JXLinearPageControl_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		3E677DDA88CFDFFD3F0376C69535AD84 /* JXLinearPageControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB7B8D9742E1085F65396CA4CF833BAD /* Build configuration list for PBXNativeTarget "JXLinearPageControl" */;
+			buildPhases = (
+				2578B6443FF8A7D3399E0888EF68D05E /* Headers */,
+				906CECAAC7FDF934425179D268EF366E /* Sources */,
+				78D3987B24D9FF2217A75B5E230BF522 /* Frameworks */,
+				41460DFC5EFC9A01E2A6B73655B4E064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JXLinearPageControl;
+			productName = JXLinearPageControl;
+			productReference = EF04E7F97A223961B2C8BB4C9F159C4D /* JXLinearPageControl */;
+			productType = "com.apple.product-type.framework";
+		};
+		E4986376F0CDF1A8B5168A8071CF3351 /* Pods-JXLinearPageControl_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0E44F8AF0C7E4899AB59B1AC2961A7C /* Build configuration list for PBXNativeTarget "Pods-JXLinearPageControl_Example" */;
+			buildPhases = (
+				42A08E934A58D4C7E3927C7F48311611 /* Headers */,
+				7023582310F23B1687C9BF60997D5BB6 /* Sources */,
+				7A117DB294C4671EFA7CC052EE34DBE0 /* Frameworks */,
+				C31D3A1BB67AEBAECD1AC8734848BE2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54AA63A001A41F778C122DD73F5C8720 /* PBXTargetDependency */,
+			);
+			name = "Pods-JXLinearPageControl_Example";
+			productName = Pods_JXLinearPageControl_Example;
+			productReference = 2350826094A0BBBE0C14C2828FC74967 /* Pods-JXLinearPageControl_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4D0682666A2E1EA71CF8A1C72D19D936 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E677DDA88CFDFFD3F0376C69535AD84 /* JXLinearPageControl */,
+				E4986376F0CDF1A8B5168A8071CF3351 /* Pods-JXLinearPageControl_Example */,
+				3226840E821F434BEAC5BB49450C5B18 /* Pods-JXLinearPageControl_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41460DFC5EFC9A01E2A6B73655B4E064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31D3A1BB67AEBAECD1AC8734848BE2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D0537D0FFD21D367EE1C741994F9C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7023582310F23B1687C9BF60997D5BB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DCC2C0CBEB0761AAE452F5F4580604 /* Pods-JXLinearPageControl_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906CECAAC7FDF934425179D268EF366E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5396B054903218A29AA8D9AFEE41833D /* JXLinearPageControl.m in Sources */,
+				34AC4FFAA282B2486129CB5A4015CC2E /* JXLinearPageControl-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6BF00EB761F6A3F0D20539E1BDC4E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73AFDD67F47C800C893D251A9530FFD1 /* Pods-JXLinearPageControl_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54AA63A001A41F778C122DD73F5C8720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JXLinearPageControl;
+			target = 3E677DDA88CFDFFD3F0376C69535AD84 /* JXLinearPageControl */;
+			targetProxy = 31998F1B77110175C6CF788F6BDF3E97 /* PBXContainerItemProxy */;
+		};
+		5DF9B4B7693AD5E50ECFD917348240DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JXLinearPageControl_Example";
+			target = E4986376F0CDF1A8B5168A8071CF3351 /* Pods-JXLinearPageControl_Example */;
+			targetProxy = 87A4C1E8B84545478868E10A711DC714 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4ADDED86899103D4E2C6A640E27F4165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DBF59DFF5FC76AA2D192EC40A6E3527 /* Pods-JXLinearPageControl_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JXLinearPageControl_Example/Pods-JXLinearPageControl_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JXLinearPageControl_Example/Pods-JXLinearPageControl_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A22D7554BDC9DB57E21B3D31EFFCC27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C47AC2ACF59FF0A16079C9B217AFEBD2 /* Pods-JXLinearPageControl_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JXLinearPageControl_Tests/Pods-JXLinearPageControl_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JXLinearPageControl_Tests/Pods-JXLinearPageControl_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9417482999A9398AC31DE51A3FD085E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 433EF5A9C045D83B1725E18ADE584D0F /* Pods-JXLinearPageControl_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JXLinearPageControl_Tests/Pods-JXLinearPageControl_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JXLinearPageControl_Tests/Pods-JXLinearPageControl_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A551A21CDA282FC1488651CE768AB32F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92F440DECFBD4813AA8EAFCD0D43229F /* JXLinearPageControl.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JXLinearPageControl/JXLinearPageControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JXLinearPageControl/JXLinearPageControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JXLinearPageControl/JXLinearPageControl.modulemap";
+				PRODUCT_MODULE_NAME = JXLinearPageControl;
+				PRODUCT_NAME = JXLinearPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C49CE6941B8E2EE9072B56728930DC6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75BDDF99B3A978A2486EE803D66E089F /* Pods-JXLinearPageControl_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JXLinearPageControl_Example/Pods-JXLinearPageControl_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JXLinearPageControl_Example/Pods-JXLinearPageControl_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EC4783653544EAED974C4A795B711791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF3457714BE3BE2814D021E5E0863CC1 /* JXLinearPageControl.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JXLinearPageControl/JXLinearPageControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JXLinearPageControl/JXLinearPageControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JXLinearPageControl/JXLinearPageControl.modulemap";
+				PRODUCT_MODULE_NAME = JXLinearPageControl;
+				PRODUCT_NAME = JXLinearPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12AB714B1A809570B6E80879E9CEC94E /* Build configuration list for PBXNativeTarget "Pods-JXLinearPageControl_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A22D7554BDC9DB57E21B3D31EFFCC27 /* Debug */,
+				9417482999A9398AC31DE51A3FD085E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0E44F8AF0C7E4899AB59B1AC2961A7C /* Build configuration list for PBXNativeTarget "Pods-JXLinearPageControl_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADDED86899103D4E2C6A640E27F4165 /* Debug */,
+				C49CE6941B8E2EE9072B56728930DC6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB7B8D9742E1085F65396CA4CF833BAD /* Build configuration list for PBXNativeTarget "JXLinearPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4783653544EAED974C4A795B711791 /* Debug */,
+				A551A21CDA282FC1488651CE768AB32F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
